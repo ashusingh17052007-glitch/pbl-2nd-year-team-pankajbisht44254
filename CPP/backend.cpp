@@ -1094,7 +1094,6 @@ void autoDemoPankaj() {
     } else {
         cout << "nothing to undo" << endl;
     }
-
     cout << "\n--- 7. Reports ---" << endl;
     mgr.showReservations();
     ReportGenerator().printOccupancyReport(mgr.getBlocks(), mgr.getBlockCount());
@@ -1102,5 +1101,4 @@ void autoDemoPankaj() {
     cout << "Total fines collected: Rs " << fines.getTotalCollected() << endl;
     log.display();
 }
-
 static void appendText(char* out, int capacity, const char* format, ...);
